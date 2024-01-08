@@ -1,0 +1,109 @@
+/* Position the header at the top and expand across the page */
+.header {
+    width: 100%;
+    padding: 15px 0;
+    display: flex; /* Arrange elements horizontally */
+    justify-content: space-between; /* Distribute elements evenly with space */
+    align-items: center; /* Vertically center elements */
+  }
+  
+  /* Style the brand name */
+  .brand {
+    margin-left: 50px;
+    text-align: center; 
+    color: #4348DB; 
+    font-size: 36px; 
+    font-family: Noto Sans Hebrew; 
+    font-weight: 800;
+    text-transform: capitalize; 
+    word-wrap: break-word;
+    margin-right: auto; /* Push the login link to the right */
+  }
+  
+  /* Style the login link */
+  .linkTologin {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    color:  #4348DB;
+    background-color: #fff; /* White background for contrast */
+  }
+  
+  /* Hover effect for the login link */
+  .linkTologin:hover {
+    background-color: #ddd; /* Light gray background on hover */
+  }
+  
+  /* Position the footer at the bottom and expand across the page */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #4348DB; 
+    color: #fff; /* White text for contrast */
+    padding: 15px 0;
+    text-align: center; /* Center the content */
+  }
+  
+  .footerCopyright {
+    font-size: 14px;
+    font-family: Poppins; 
+    color: white;
+    margin: 0; /* Remove default paragraph margins */
+  }
+
+main h1{
+    width: 100%;
+    background: #F4F5F7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: -10px;
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+.input {
+    display: flex; /* Make the container a flexbox */
+    justify-content: center; /* Center the form horizontally */
+    width: 100%; /* Ensure it spans the full width of the screen */
+  }
+  
+main form {
+    /* Additional styling for the form (optional) */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    width: 578px;
+    border: 1px solid #ccc;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+main form input{
+    width: 99%;
+    height: 70%;
+}
+
+main form button{
+    padding: 2%;
+    border-radius: 10px;
+    background: #4348DB;
+    color: white;
+    border-style: none;
+    margin-bottom: 2rem;
+}
+
+main form p{
+    text-align: center;
+}
+
+main form a{
+    text-decoration: none;
+    color:#4348DB;
+}
+  
