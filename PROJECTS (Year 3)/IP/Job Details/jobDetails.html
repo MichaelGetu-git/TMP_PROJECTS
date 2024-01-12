@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jobdetails.css">
+    <title>Job Details</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div class="logo">
+                <h2>JOB PORTAL</h2>
+            </div>
+            <div class="header-buttons">
+                <button class="button">LogOut</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <div class="title-holder">
+                <span class="job-name">Laravel Developer</span>
+                <span class="time">(Full Time)</span>
+                <span class="company-name">- Match company Limited</span>
+            </div>
+            <div class="apply-buttons">
+                <button class="view-button">View Company</button>
+                <button class="button" onclick="openPopup()">Apply This Job</button>
+            </div>
+            <div class="popup" id="popup">
+                <div class="pop-container">
+                    <div class="pop-title">
+                        <div class="job-logo">
+                            <img src="./image.jpg" alt="not loading">
+                        </div>
+                        <div class="job-info">
+                        <span class="job-name">Laravel Developer</span>
+                        <span class="time">(Full Time)</span>
+                        <div class="pop-tit-span">
+                            <span class="size">Medium</span>
+                            <span class="place">Addis, Ethiopia</span>
+                            <span class="time">Full-Time</span>
+                        </div>    
+                        </div>    
+                    </div>
+                    <hr>
+                    <div class="form-holder">
+                        <form action="on submit">
+                            <label class="form-label" for="full-name">Full Name</label><br>
+                            <input class="form-input" type="text" id="full-name" placeholder="Enter your fullname"><br>
+                            
+                            <label class="form-label" for="email">Email Address</label><br>
+                            <input class="form-input" type="email" id="email" placeholder="Enter your email address"><br>
+                            
+                            <label class="form-label" for="phone" class="phone">Phone number</label><br>
+                            <input class="form-input" type="phone" id="phone" placeholder="Enter your phone number"><br>
+                            
+                            <label class="form-label" for="previous-job" class="previous-job">Current or previous job title</label><br>
+                            <input class="form-input" type="text" id="previous-job" placeholder="What's your current or previous job title?"><br>
+                        
+                            <hr>
+                            <h3>Links</h3>
+                            
+                            <label class="form-label" for="linkedin-url">LinkedIn URL</label><br>
+                            <input class="form-input" type="url" id="linkedin-url" placeholder="Enter your LinkedIn URL"><br>
+                            
+                            <label class="form-label" for="portfolio-url">Portfolio URL</label><br>
+                            <input class="form-input" type="url" id="portfolio-url" placeholder="Enter your Portfolio URL"><br>
+
+                            <label class="form-label" for="add-info">Additional Information</label>
+                            <textarea name="text-area" id="add-info"  maxlength="500" placeholder = "Add a cover letter or anything you want to share"></textarea>
+                    
+                            <div class="file-attach">
+                                <p class="resume" for="file">Attach your Resume</p>
+                                <input class = "custom-file" type="file" id="file" accept=".pdf, .doc, .docx">
+                                <label class="file-label" for="file">Attach Cv</label>
+                           </div>
+                     
+                            <hr>
+                        <button class="form-submit" type="submit" onclick="closePopup()">Submit Application</button>
+                        </form>
+                        <p class="terms">
+                            By sending the request you can confirm that you accept our Terms of Service and Privacy Policy.
+                        </p> 
+                    </div>
+                </div> 
+            </div>
+            <div class="discription-content">
+                <div class="disc-left">
+                    <h3 class="jod-disc">Job Description</h3>
+                    
+                    <p>
+                        We are in search of a skilled Laravel developer to spearhead the
+                        development of web applications for our organization. In this
+                        role, you will be responsible for conceptualizing and building
+                        projects using the Laravel framework and PHP. Your contribution
+                        will play a crucial role in delivering top-notch web applications,
+                        services, and tools tailored to our business needs.
+                    <p>
+                        To excel as a Laravel developer, you should possess a strong
+                        command of Laravel's GUI, along with the ability to design a PHP
+                        application from inception to completion. A standout Laravel
+                        developer will leverage their expertise and experience with the
+                        framework to independently deliver comprehensive solutions within
+                        a short timeframe.
+                    </p>
+                    </p>
+                    <h3 class = "job-req">Larverl Developer Requirements</h3>
+                    <p>
+                        - A degree in programming, computer science, or a related field.
+                    </p>
+                    <p>
+                        - Proficiency in PHP, including unit testing and API management
+                        (especially REST).
+                    </p>
+                    <p>
+                        - Thorough understanding of application design using Laravel.
+                    </p>
+                    <p>
+                        - Knowledge of database design and SQL querying.
+                    </p>
+                    <p>
+                        - Strong problem-solving skills and a critical mindset.
+                    </p>
+                    <h3>Responsibilities</h3>
+                    <p>
+                        - Engaging with clients and the development team to discuss project objectives.
+                    </p>
+                    <p>
+                        - Designing and constructing web applications using Laravel.
+                    </p>
+                    <p>
+                        - Testing functionality for both users and the backend.
+                    </p>
+                    <p >- Ensuring seamless integration of systems.</p>
+            
+                </div>
+                <div class="disc-right">
+                    <aside>
+                        <section class="about-role">
+                            <h2>About this Role</h2>
+                            <div class="progress-container">
+                                <div class="progress-statement">
+                                    <span class="bold-info">5 applied</span>
+                                    <span class="normal-info">of 10 capacity</span>
+                                </div>
+                                <progress class="progress-bar" value="5" max="10">50% done</progress>
+                            </div>
+                            <div class="applied">
+                                <span class="normal-info">Applied Before</span>
+                                <span class="bold-info">July 31, 2023</span>
+                            </div>
+                            <div class="job-posted">
+                                <span class="normal-info">Job Posted On</span>
+                                <span class="bold-info">July 1,2023</span>
+                            </div>
+                            <div class="job-type">
+                                <span class="normal-info">Job Type</span>
+                                <span class="bold-info">Full-Time</span>
+                            </div>    
+                            <div>
+                                <span class="salary">
+                                    <span class="normal-info">Salary</span>
+                                    <span class="bold-info">$15k - $20k ETB</span>
+                                </span>
+                            </div>
+                        </section>
+                        <div class="break">
+                            <hr>
+                        </div>
+                        <section class="categories">
+                            <h2>Categories</h2>
+                            <button class="marketing">Marketing</button>
+                            <button class="design">Design</button>
+                        </section>
+                        <div class="break">
+                            <hr>
+                        </div>                        
+                        <section class="required-skills">
+                            <h2>Requirements</h2>
+                            <div class="req-buttons">
+                                <button class="req-button">Project Management</button>
+                                <button class="req-button">Copywriting</button>
+                                <button class="req-button">English</button>
+                                <button class="req-button">SocialMediaMarketing</button>
+                                <button class="req-button">Copy Editing</button>
+                            </div>
+                        </section>
+                    </aside>
+                </div>
+            </div>
+            <div class="perks">
+                <div class="perk-info">
+                    <h2>Perks and Benefits</h2>
+                    <p>This job comes with several perks and benefits</p>
+                </div>
+                <div class="first-set-benefit">
+                    <div class="healthcare">
+                        <img src="./icon@2x.png" alt="">
+                        <div class="health-text">
+                            <h2>Full Healthcare</h2>
+                            <p>
+                                We believe in thriving communities and that
+                                starts with our team being happy and healthy.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="vaccation">
+                        <img src="./icon@2x.png" alt="">
+                        <div class="vacation-text">
+                            <h2>Unlimited Vacation</h2>
+                            <p>
+                                We believe you should have a flexivle schedule
+                                that makes space for family wellness, and fun.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="skill-dev">
+                        <img src="./icon@2x.png" alt="">
+                        <div class="skill-text">
+                            <h2>Skill Development</h2>
+                            <p>
+                                We believe in always learning and leveling up our skills.
+                                Whether it's a conference or online course.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="team-summit">
+                        <img src="./icon@2x.png" alt="">
+                        <div class="summit-text">
+                            <h2>Team Summit</h2>
+                            <p>
+                                Every 6 months we have a full team summit where we have fun,
+                                reflect, and plan for the upcoming quarter.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec-set-benefit">
+                    <div class="remote-work">
+                        <img src="./icon@2x.png" alt="">
+                        <h2>Remote Working</h2>
+                        <p>
+                            You know how you perform your best. Work from home, coffee
+                            shop or anywhere when you feel like it.
+                        </p>
+                    </div>
+                    <div class="computer-benefits">
+                        <img src="./icon@2x.png" alt="">
+                        <h2>Computer Benefits</h2>
+                        <p>
+                            We’re grateful for all the time and energy each team member
+                            puts into getting to work every day.
+                        </p>
+                    </div>
+                    <div class="givers">
+                        <img src="./icon@2x.png" alt="">
+                        <h2>We give back</h2>
+                        <p>
+                            We anonymously match any donation our employees make (up to
+                            $/€ 600) so they can support the organizations they care about
+                            most—times two.
+                        </p>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">© 2024 Job Portal Design For IP project</p>
+    </footer>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+
+    </script>
+</body>
+</html>
