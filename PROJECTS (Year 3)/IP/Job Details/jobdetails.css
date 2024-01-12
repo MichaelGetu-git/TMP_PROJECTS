@@ -1,0 +1,395 @@
+.root {
+    position: absolute;
+    max-width: 270px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo {
+    color: blue;
+    font-size: 26px;
+    font: var(--font-noto-sans);
+}
+
+.header-buttons {
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 150px;
+}
+
+button {
+   margin: 0;
+   padding: 0;
+   border: none;
+   font: inherit;
+   color: inherit;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    boarder: 2px solid yellow;
+    transition: red 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+    background-color: purple;
+    border-color: #45a049;
+    color: #fff;
+}
+
+.title-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    height: 60px;
+    background-color:  #f0f0f0;
+    width: 85%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-name, .company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.time {
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    margin: 0 5px;
+}
+
+.apply-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+
+.view-button {
+    color: #000;
+    border: 2px solid #000;
+    padding: 15px 25px;
+    border-radius: 7px;
+    background-color: transparent;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: red 0.3s, color 0.3s, border-color 0.3s;
+
+}
+
+.view-button:hover {
+    background-color: orange;
+    border-color: #45a049;
+    color: #fff;
+}
+
+.discription-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.disc-left {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 70%;
+    font-size: 20px;
+}
+
+.disc-right {
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+.about-role, .categories, .required-skills {
+    width: 350px;
+    margin-left: 150px;
+}
+
+.progress-container {
+    width: 350px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+}
+
+.progress-statement {
+    margin: 0;
+    color: #333;
+    text-align: left;
+}
+
+.progress-bar {
+    width: 300px;
+    height: 10px;
+
+}
+
+progress-bar {
+    width: 250px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    color: pink;
+}
+
+.progress-statement {
+    text-align: left;
+    margin: 0;
+    color: #333;
+    font-size:  18px;
+}
+
+.bold-info {
+    font-weight: bold;
+}
+
+.applied, .job-posted, .job-type, .salary {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.break {
+    margin-top: 40px;
+    width: 350px;
+    margin-left: 150px;
+}
+.categories {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.marketing {
+    padding: 10px 25px;
+    cursor: pointer;
+    font-style: bold;
+    font-weight: bolder;
+    color: yellowgreen;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.design {
+    padding: 10px 25px;
+    cursor: pointer;
+    font-style: bold;
+    font-weight: bolder;
+    color: red;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.req-button {
+    padding: 10px 30px;
+    cursor: pointer;
+    color: blue;
+    font-weight: lighter;
+    border-radius: 7px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.perks {
+    margin-top: 60px;
+    margin-left: 40px;
+    
+}
+
+.perk-info {
+    font-size: 20px;
+}
+.first-set-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1500px;
+ }
+
+ .sec-set-benefit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+ }
+
+.healthcare, 
+.vaccation, 
+.team-summit, 
+.skill-dev,
+.remote-work,
+.computer-benefits, 
+.givers {
+    width: 350px;
+    margin: 12px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #4348DB;
+}
+
+p {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: Poppins;
+}
+
+.popup {
+    width: 450px;
+    height: 1155px;
+    border: 1px solid #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 6px;
+    margin: auto;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    top: 0;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 100%;
+    transform: translate(-50%, -50%) scale(1);
+    
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+
+.pop-title {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-holder {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+form {
+    text-align: left;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 110px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.form-submit:hover {
+    background-color: #0056b3;
+}
+
+.text-area {
+    height: 180px;
+    text-align:start
+    wrap 
+}
+
+.file-attach {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20x;
+    margin-bottom: 5px;
+}
+
+.custom-file {
+    display: none;
+}
+
+.file-label {
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #4640DE;
+    border: 1px dashed #4640DE;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    
+}
+
+.file-label:hover {
+    color: #45a049;
+    border: 1px dashed #45a049;
+}
+
+.resume, .terms {
+    font-size: 16px;
+    margin-top: 25px;
+}
+
