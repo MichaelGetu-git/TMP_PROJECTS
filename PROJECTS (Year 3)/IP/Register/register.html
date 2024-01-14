@@ -20,12 +20,22 @@
             <form>
                 <div class="usernameSection" >
                     <label for="username" class="userLabel">Username</label> <br>
-                    <input type="text" placeholder="Username" class="userInput" >
+                    <input type="text" placeholder="Username" class="userInput" required>
+                </div>
+
+                <div class="userEmailSection" >
+                    <label for="userEmail" class="emailLabel">Email</label> <br>
+                    <input type="email" placeholder="example@gmail.com" class="emailInput" required>
                 </div>
 
                 <div class="passwordSection" >
                     <label for="password" class="passwordLabel" >Password</label> <br>
-                    <input type="password" placeholder="Password" class="passwordInput" >
+                    <input type="password" placeholder="Password" class="passwordInput" required>
+                </div>
+
+                <div class="conformationPasswordSection" >
+                    <label for="conformationPassword" class="passwordLabel" >Re-enter Password</label> <br>
+                    <input type="password" placeholder="re-enter password" class="passwordInput" required>
                 </div>
 
                 <button class="createAccountButton" >Create Account</button>

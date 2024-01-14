@@ -35,6 +35,10 @@
   .linkTologin:hover {
     background-color: #ddd; /* Light gray background on hover */
   }
+
+  .loginOption{
+    
+  }
   
   /* Position the footer at the bottom and expand across the page */
 footer {
@@ -75,9 +79,10 @@ main h1{
 main form {
     /* Additional styling for the form (optional) */
     padding: 20px;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
-    gap: 20%;
+    gap: 13.1%;
     width: 578px;
     border: 1px solid #ccc;
     border-style: solid;

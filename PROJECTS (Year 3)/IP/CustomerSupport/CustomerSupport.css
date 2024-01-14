@@ -1,0 +1,178 @@
+body{
+    background: rgba(190, 190, 190, 1);
+    overflow-x: hidden;
+}
+
+header{
+    padding-top: 4rem;
+    background: white;
+    width: 100%;
+    padding-right: 2.5rem;
+    margin-left: -2rem;
+}
+
+header .top{
+    border-style: solid;
+    border-width: 0rem 0rem 0.1rem 0rem;
+    border-color: #BEBEBE;
+    position: fixed;
+    left: 0rem;
+    top: 0rem;
+    height: 3.8rem;
+    background: #fff;
+    width: 100%;
+    display: inline-flex; /* Arrange elements horizontally */
+    justify-content: center; /* Distribute elements evenly with space */
+    gap: 15rem;
+    align-items: center; /* Vertically center elements */
+    z-index: 2;
+}
+
+header .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    padding-bottom: 3rem;
+}
+
+button{
+    border-style: none;
+    padding: 0.6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.6rem;
+    font-size: x-large;
+    color: #fff;
+    background:  #4348DB;
+    margin-right: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 6%;
+   
+}
+
+a:hover{
+    color: #4348DB;
+    border-style: solid;
+    border-width: 0rem 0rem 0.1rem 0rem;
+}
+
+header .top nav {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.brand {
+    margin-left: 50px;
+    text-align: center; 
+    color: #4348DB; 
+    font-size: 36px; 
+    font-family: Noto Sans Hebrew; 
+    font-weight: 800;
+    text-transform: capitalize; 
+    word-wrap: break-word;
+    margin-right: auto; /* Push the login link to the right */
+  }
+
+.one {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 4000;
+    margin-bottom: 0.1rem;
+}
+
+.two{
+    margin-top: 0.1rem;
+    text-align: center;
+    color: rgb(178, 178, 178);
+}
+
+.contactBox{
+    padding: 1rem;
+    width: 50rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: 0.13rem;
+    border-color: #3862A0;
+    background: #fff;
+    position: relative;
+    top: -2rem;
+    left: 20%;
+    z-index: 1;
+}
+
+#CS{
+    color: #4348DB;
+    border-style: solid;
+    border-width: 0rem 0rem 0.1rem 0rem; 
+}
+
+.contactBox .phone{
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    border-width: 0.09rem;
+    padding: 0.2rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    border-radius: 0.4rem;
+}
+
+.contactBox .email{
+    border-style: solid;
+    border-color: rgb(178, 178, 178);
+    border-width: 0.09rem;
+    padding: 0.2rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 0.4rem;
+}
+
+main{
+    background: #fff;
+    width: 100%;
+    margin-left: -1rem;
+    padding: 1rem;
+    display: grid;
+    align-items:center;
+    justify-content:center;
+}
+
+.tutorials{
+    display: inline-flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.tutorials p{
+    width: 30rem;
+}
+
+.tutorials .text{
+    margin: 2rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #4348DB; 
+    color: #fff; /* White text for contrast */
+    padding: 15px 0;
+    text-align: center; /* Center the content */
+  }
+  
+  .footerCopyright {
+    font-size: 14px;
+    font-family: Poppins; 
+    color: white;
+    margin: 0; /* Remove default paragraph margins */
+  }
