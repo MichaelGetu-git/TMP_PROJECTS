@@ -79,7 +79,7 @@ main h1{
 main form {
     /* Additional styling for the form (optional) */
     padding: 20px;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
     display: flex;
     flex-direction: column;
     gap: 13.1%;
@@ -106,7 +106,9 @@ main form button{
 main form p{
     text-align: center;
 }
-
+.loginOption{
+  text-align: center;
+}
 main form a{
     text-decoration: none;
     color:#4348DB;
